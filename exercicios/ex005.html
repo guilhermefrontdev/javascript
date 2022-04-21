@@ -23,11 +23,15 @@
         var corpo = window.document.body
         var p1 = window.document.getElementsByTagName('p')[1]
        window.document.write('Está escrito assim: ' + p1.innerText) 
-       corpo.style.background = 'black'
+       corpo.style.backgroundColor = 'black'
        p1.style.color = 'Yellow'
        window.alert(p1.innerText)
+
        var d = window.document.getElementById('msg')
-       d.style.background = 'green'
+       d.style.backgroundColor = 'green'
+       d.style.width = '500px'
+       d.style.padding = '5px'
+       d.style.borderRadius = '10px'
        d.innerText = 'Estou aguardando...'
     </script>
 </body>
