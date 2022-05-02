@@ -15,14 +15,14 @@ function contar() {
         if (1 < f) {
             // contagem crescente
             for(let c = i; c <= f; c += p) {
-                res.innerHTML += ` ${c} \u{1F449}`
+                res.innerHTML += ` ${c} `
             }
         } else {
             // contagem regressiva
             for(let c = 1; c >= f; c -= p) {
-                res.innerHTML += ` ${c} \u{1F3C1}`
+                res.innerHTML += ` ${c} `
             }
         }
-        res.innerHTML += `\u{1F3C1}`
+        res.innerHTML += ` ${c} `
     }
 }
